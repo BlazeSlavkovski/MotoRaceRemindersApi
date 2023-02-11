@@ -184,8 +184,8 @@
     "NumberLap": "63",
     "RaceDistance": "309.049km",
     "LapRecord": "1:15.484",
-    "CircuitImage": "http://localhost:8080/images/Miami_circuit.png",
-    "ActionImage": "http://localhost:8080/images/MIAMI_action.jpg",
+    "CircuitImage": "http://localhost:8080/images/Imola_circuit.png",
+    "ActionImage": "http://localhost:8080/images/italy_action.jpg",
     "FirstPractice": {
       "Date": "2023-05-19",
       "Time": "07:30:00"

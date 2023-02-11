@@ -20,6 +20,11 @@ app.get('/', (req,res) => {
     res.json(races)
 })
 
+app.get('/:names',(req,res) => {
+    const races = getRaces();
+    const selected = races.find(item => item.Circuit.Location.Locality === req.params.names)
+    res.json(selected)
+})
 
 
 
