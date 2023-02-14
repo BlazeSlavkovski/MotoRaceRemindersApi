@@ -38,12 +38,8 @@ app.get('/:names',(req,res) => {
     res.json(selected)
 })
 
-
-
 app.get("/following/:names",(req,res) => {
     const following = getFollowing();
-    console.log(following)
-    console.log(req.params.names)
     const selected = following.find(item => item.Circuit.Location.Locality === req.params.names);
     res.json(selected);
 })
